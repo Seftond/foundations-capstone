@@ -1,0 +1,74 @@
+body {
+    --radius: 24px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+/* Navigation bar */
+ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgb(49, 43, 43);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li a {
+   color:aliceblue; 
+   padding:20px 30px 20px 30px;
+   text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(7, 7, 7);
+  }
+
+
+/* Login page styling */
+.login, 
+.createAccount{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: white;
+      border-radius: var(--radius);
+      height: 400px;
+      width: 300px;
+}
+
+.loginHeader{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+
+.hiddenForm{
+    display:none;
+}
+
+#username,
+#password,
+#confirmPassword,
+#createPassword,
+#createUsername{
+    margin:10px;
+    width: 200px;
+}
+
+#incorrectInfo {
+    color: rgb(221, 3, 3);
+}
+
+.siteName{
+    color: white;
+    text-align: center;
+}
