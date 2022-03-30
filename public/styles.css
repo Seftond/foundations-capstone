@@ -1,6 +1,10 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    background-color: #5d776c;
+}
+.loginClass {
     --radius: 24px;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background-green.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -15,7 +19,7 @@ ul{
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgb(49, 43, 43);
+    background-color: #353d38;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -27,7 +31,8 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(7, 7, 7);
+    background-color:#b6c3bf;
+    color: black;
   }
 
 
@@ -71,4 +76,139 @@ li a:hover {
 .siteName{
     color: white;
     text-align: center;
+    font-size: 48px;
+    font-family:Staatliches;
 }
+
+.betOptions{
+    text-align: center;
+    color: black;
+}
+
+.game{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spread,
+.moneyline,
+.totals{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.league,
+.usersBets,
+.betResponsibly{
+    background-color: #353d38;
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 24px;
+}
+
+.futureBet{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+button{
+    height:50px;
+    width:80px;
+    background-color: #b6c3bf;
+}
+
+button:hover{
+    background-color: #739382;
+}
+
+.matchup{
+    margin-top: 50px;;
+}
+
+.team{
+    margin:10px;
+    height: 50px;
+    width:200px;
+
+}
+
+.record{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    color:white;
+    font-size: 16px;
+}
+
+.usersBets,
+.betResponsibly{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.individualWager{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.winLossButtons{
+    display: flex;
+    margin: 10px;
+}
+
+.individualWagerInfo{
+    font-size: 16px;
+}
+
+.winButton{
+    background-color: green;
+    color:white;
+    height: 32px;
+    width: 56px;
+    margin:10px;
+}
+
+.lossButton{
+    background-color: red;
+    color:white;
+    height: 32px;
+    width: 56px;
+    margin:10px;
+}
+
+.pushButton{
+    background-color: black;
+    color:white;
+    height: 32px;
+    width: 56px;
+    margin:10px;
+}
+
+.betResponsibly{
+    background-color:#5d776c ;
+}
+
+.credits{
+    background-color: #353d38;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin: 10px;
+}
+
+

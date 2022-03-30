@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Login</title>
 </head>
-<body>
+<body class="loginClass">
 
     <h1 class="siteName">The Degenerate Gambler</h1>
 
@@ -19,10 +19,10 @@
             <div class="loginInfo">
                 <div id="incorrectInfo"></div>
                 <div class="usernameInfo"><input type="text" id="username" placeholder="Username or email"></div>
-                <div class="passwordInfo"><input type="password" id="password" placeholder="password"></div>
+                <div class="passwordInfo"><input type="password" id="password" placeholder="Password"></div>
             </div>
             <input type="submit" id="loginSubmit" value="Submit">
-            <p>Don't have an account? <a href="./" id="newAccountLink">Create account</a></p>
+            <p>Don't have an account? <a href="./" id="newAccountLink">Sign up</a></p>
             <p><a href="https://images-na.ssl-images-amazon.com/images/I/51olybHc+cL.jpg">Forgot your password?</a></p>
         </form>
 
@@ -31,7 +31,7 @@
             <h1>Create Account</h1>
             <div class="loginInfo">
                 <div class="usernameInfo"><input type="text" id="createUsername" placeholder="Username or email"></div>
-                <div class="passwordInfo"><input type="password" id="createPassword" placeholder="password"></div>
+                <div class="passwordInfo"><input type="password" id="createPassword" placeholder="Password"></div>
                 <div class="confirmPassword"><input type="password" id="confirmPassword" placeholder="Confirm password"></div>
             </div>
             <input type="submit" id="createAccountSubmit" value="Submit">
@@ -40,7 +40,7 @@
 
     </header>
 
-
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
 
 
